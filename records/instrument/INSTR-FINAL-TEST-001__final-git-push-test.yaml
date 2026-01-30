@@ -1,0 +1,5 @@
+$schema: https://computable-lab.com/schema/computable-lab/instrument.schema.yaml
+recordId: INSTR-FINAL-TEST-001
+kind: instrument
+id: INSTR-FINAL-TEST-001
+name: Final Git Push Test
