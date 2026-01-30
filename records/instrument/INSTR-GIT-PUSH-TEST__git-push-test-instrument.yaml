@@ -1,0 +1,5 @@
+$schema: https://computable-lab.com/schema/computable-lab/instrument.schema.yaml
+recordId: INSTR-GIT-PUSH-TEST
+kind: instrument
+id: INSTR-GIT-PUSH-TEST
+name: Git Push Test Instrument
