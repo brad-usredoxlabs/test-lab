@@ -9,4 +9,5 @@
 {"recordId":"STD_0005__biddy","schemaId":"https://computable-lab.com/schema/computable-lab/study.schema.yaml","status":"draft","path":"records/study/STD_0005__biddy__biddy.yaml","hash":"340f5d1d417c2daa","kind":"study","title":"biddy"}
 {"recordId":"STD_0006__bub","schemaId":"https://computable-lab.com/schema/computable-lab/study.schema.yaml","status":"draft","path":"records/study/STD_0006__bub__bub.yaml","hash":"52172c725fc62071","kind":"study","title":"bub"}
 {"recordId":"STD_0007__darko","schemaId":"https://computable-lab.com/schema/computable-lab/study.schema.yaml","status":"draft","path":"records/study/STD_0007__darko__darko.yaml","hash":"91104076cc766c0f","kind":"study","title":"darko"}
+{"recordId":"STD_0008__donkey","schemaId":"https://computable-lab.com/schema/computable-lab/study.schema.yaml","status":"draft","path":"records/study/STD_0008__donkey__donkey.yaml","hash":"85ee9fbdefb16398","kind":"study","title":"donkey"}
 {"recordId":"STU-000003","schemaId":"https://computable-lab.com/schema/computable-lab/study.schema.yaml","status":"draft","path":"records/study/STU-000003__study-1.yaml","hash":"2a9b14cb1f8fc3ae","kind":"study","title":"Study 1"}
