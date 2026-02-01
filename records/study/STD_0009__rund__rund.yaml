@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0009__rund
+kind: study
+title: rund
+shortSlug: rund
+state: draft
