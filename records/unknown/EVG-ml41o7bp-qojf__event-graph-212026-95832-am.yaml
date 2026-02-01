@@ -1,0 +1,62 @@
+$schema: https://computable-lab.com/schema/computable-lab/event-graph.schema.yaml
+recordId: EVG-ml41o7bp-qojf
+id: EVG-ml41o7bp-qojf
+events:
+  - eventId: evt-1769968708240-freoi57p8
+    event_type: add_material
+    t_offset: PT0M
+    details:
+      wells:
+        - D6
+      material_ref:
+        kind: ontology
+        id: CHEBI:15377
+        namespace: CHEBI
+        label: water
+        uri: http://purl.obolibrary.org/obo/CHEBI_15377
+      volume:
+        value: 1000
+        unit: µL
+      labwareId: lw-1769968690910-2uatrv
+labwares:
+  - labwareId: lw-1769968690910-2uatrv
+    name: 96-Well Plate
+    labwareType: plate_96
+    addressing:
+      type: grid
+      rows: 8
+      columns: 12
+      rowLabels:
+        - A
+        - B
+        - C
+        - D
+        - E
+        - F
+        - G
+        - H
+      columnLabels:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+        - "9"
+        - "10"
+        - "11"
+        - "12"
+    geometry:
+      maxVolume_uL: 300
+      minVolume_uL: 10
+      wellShape: round
+    color: "#339af0"
+name: Event Graph 2/1/2026, 9:58:32 AM
+runId: RUN_0001__bobd
+links:
+  runId: RUN_0001__bobd
+  studyId: STD_0009__rund
+  experimentId: EXP_0001__robd
+status: filed
