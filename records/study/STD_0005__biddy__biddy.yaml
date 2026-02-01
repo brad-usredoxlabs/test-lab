@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0005__biddy
+kind: study
+title: biddy
+shortSlug: biddy
+state: draft
