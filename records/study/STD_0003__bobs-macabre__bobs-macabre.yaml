@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0003__bobs-macabre
+kind: study
+title: Bobs Macabre
+shortSlug: bobs-macabre
+state: draft
