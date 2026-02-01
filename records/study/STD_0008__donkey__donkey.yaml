@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0008__donkey
+kind: study
+title: donkey
+shortSlug: donkey
+state: draft
