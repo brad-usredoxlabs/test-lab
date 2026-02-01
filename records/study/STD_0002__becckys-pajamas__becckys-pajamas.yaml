@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0002__becckys-pajamas
+kind: study
+title: Becckys Pajamas
+shortSlug: becckys-pajamas
+state: draft
