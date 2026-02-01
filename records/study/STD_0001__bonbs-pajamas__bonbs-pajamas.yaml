@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0001__bonbs-pajamas
+kind: study
+title: bonbs pajamas
+shortSlug: bonbs-pajamas
+state: draft
