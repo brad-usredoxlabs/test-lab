@@ -1,0 +1,86 @@
+$schema: https://computable-lab.com/schema/computable-lab/event-graph.schema.yaml
+recordId: EVG-ml3092hx-jc49
+id: EVG-ml3092hx-jc49
+events:
+  - eventId: evt-1769903867976-ch0bmzc8h
+    event_type: add_material
+    t_offset: PT0M
+    details:
+      wells:
+        - "1"
+      material_ref:
+        kind: ontology
+        id: CHEBI:15377
+        namespace: CHEBI
+        label: water
+        uri: http://purl.obolibrary.org/obo/CHEBI_15377
+      volume:
+        value: 1000
+        unit: µL
+      labwareId: lw-1769903836172-ukepnv
+  - eventId: evt-1769905852901-xkjslqu7e
+    event_type: transfer
+    t_offset: PT0M
+    details:
+      source_wells:
+        - "1"
+      dest_wells:
+        - A2
+        - B2
+        - C2
+        - D2
+        - E2
+        - F2
+        - G2
+        - H2
+      volume:
+        value: 20
+        unit: µL
+      source_labwareId: lw-1769903836172-ukepnv
+      dest_labwareId: lw-1769903843883-8qnela
+labwares:
+  - labwareId: lw-1769903836172-ukepnv
+    name: Single Reservoir
+    labwareType: reservoir_1
+    addressing:
+      type: single
+    geometry:
+      maxVolume_uL: 300000
+      minVolume_uL: 5000
+      wellShape: square
+    color: "#099268"
+  - labwareId: lw-1769903843883-8qnela
+    name: 96-Well Plate
+    labwareType: plate_96
+    addressing:
+      type: grid
+      rows: 8
+      columns: 12
+      rowLabels:
+        - A
+        - B
+        - C
+        - D
+        - E
+        - F
+        - G
+        - H
+      columnLabels:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+        - "9"
+        - "10"
+        - "11"
+        - "12"
+    geometry:
+      maxVolume_uL: 300
+      minVolume_uL: 10
+      wellShape: round
+    color: "#339af0"
+name: Event Graph 1/31/2026, 4:31:00 PM
