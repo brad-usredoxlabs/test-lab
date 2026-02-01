@@ -1,0 +1,53 @@
+$schema: https://computable-lab.com/schema/computable-lab/event-graph.schema.yaml
+recordId: EVG-ml414y18-s8ea
+id: EVG-ml414y18-s8ea
+events:
+  - eventId: evt-1769967805575-dwabsl6y1
+    event_type: add_material
+    t_offset: PT0M
+    details:
+      wells: []
+      material_ref:
+        kind: ontology
+        id: CHEBI:15377
+        namespace: CHEBI
+        label: water
+        uri: http://purl.obolibrary.org/obo/CHEBI_15377
+      volume:
+        value: 100
+        unit: µL
+      labwareId: lw-1769967789138-j51uay
+  - eventId: evt-1769967811984-bp7cejxbd
+    event_type: add_material
+    t_offset: PT0M
+    details:
+      wells:
+        - "1"
+      material_ref:
+        kind: ontology
+        id: CHEBI:15377
+        namespace: CHEBI
+        label: water
+        uri: http://purl.obolibrary.org/obo/CHEBI_15377
+      volume:
+        value: 100
+        unit: µL
+      labwareId: lw-1769967789138-j51uay
+labwares:
+  - labwareId: lw-1769967789138-j51uay
+    name: Single Reservoir
+    labwareType: reservoir_1
+    addressing:
+      type: single
+    geometry:
+      maxVolume_uL: 300000
+      minVolume_uL: 5000
+      wellShape: square
+    color: "#099268"
+name: Event Graph 2/1/2026, 9:43:34 AM
+runId: RUN_0001__bobd
+links:
+  runId: RUN_0001__bobd
+  studyId: STD_0009__rund
+  experimentId: EXP_0001__robd
+status: filed
