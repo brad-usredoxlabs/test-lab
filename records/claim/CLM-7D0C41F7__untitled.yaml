@@ -1,0 +1,22 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-7D0C41F7
+kind: claim
+id: CLM-7D0C41F7
+statement: Wells B2 serve as sample
+subject:
+  kind: record
+  id: CTX-187E0845
+  type: context
+  label: lw-1770005811957-om34id B2
+predicate:
+  kind: record
+  id: predicate:has_role
+  type: predicate
+  label: has_role
+object:
+  kind: record
+  id: role:sample
+  type: role
+  label: sample
+createdAt: 2026-02-02T04:16:57.557Z
+createdBy: user
