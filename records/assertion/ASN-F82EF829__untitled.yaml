@@ -1,0 +1,23 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-F82EF829
+kind: assertion
+id: ASN-F82EF829
+claim_ref:
+  kind: record
+  id: CLM-4A0F7CC7
+  type: claim
+  label: Wells B3 serve as positive_control
+statement: In this experiment, wells B3 on lw-1770004588898-dhhq1g serve as
+  positive_control
+scope:
+  treated_context:
+    kind: record
+    id: CTX-3A941624
+    type: context
+    label: lw-1770004588898-dhhq1g B3
+evidence_refs:
+  - kind: record
+    id: EVD-30113C30
+    type: evidence
+createdAt: 2026-02-02T03:56:39.281Z
+createdBy: user
