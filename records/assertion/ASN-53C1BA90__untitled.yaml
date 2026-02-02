@@ -1,0 +1,22 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-53C1BA90
+kind: assertion
+id: ASN-53C1BA90
+claim_ref:
+  kind: record
+  id: CLM-9023E908
+  type: claim
+  label: Wells B2 serve as sample
+statement: In this experiment, wells B2 on lw-1770005346569-rieotk serve as sample
+scope:
+  treated_context:
+    kind: record
+    id: CTX-6B183AF6
+    type: context
+    label: lw-1770005346569-rieotk B2
+evidence_refs:
+  - kind: record
+    id: EVD-3DE76722
+    type: evidence
+createdAt: 2026-02-02T04:09:13.143Z
+createdBy: user
