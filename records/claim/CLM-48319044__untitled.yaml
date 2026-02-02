@@ -1,0 +1,22 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-48319044
+kind: claim
+id: CLM-48319044
+statement: Wells A2-A4 serve as sample
+subject:
+  kind: record
+  id: CTX-BFD65085
+  type: context
+  label: lw-1770005736440-0pbdgb A2-A4
+predicate:
+  kind: record
+  id: predicate:has_role
+  type: predicate
+  label: has_role
+object:
+  kind: record
+  id: role:sample
+  type: role
+  label: sample
+createdAt: 2026-02-02T04:15:48.060Z
+createdBy: user
