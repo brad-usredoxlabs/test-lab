@@ -1,0 +1,22 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-4A0F7CC7
+kind: claim
+id: CLM-4A0F7CC7
+statement: Wells B3 serve as positive_control
+subject:
+  kind: record
+  id: CTX-3A941624
+  type: context
+  label: lw-1770004588898-dhhq1g B3
+predicate:
+  kind: record
+  id: predicate:has_role
+  type: predicate
+  label: has_role
+object:
+  kind: record
+  id: role:positive_control
+  type: role
+  label: positive control
+createdAt: 2026-02-02T03:56:39.281Z
+createdBy: user
