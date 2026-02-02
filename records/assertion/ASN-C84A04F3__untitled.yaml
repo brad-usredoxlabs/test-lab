@@ -1,0 +1,19 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-C84A04F3
+kind: assertion
+id: ASN-C84A04F3
+claim_ref:
+  kind: record
+  id: CLM-9B968F63
+  type: claim
+  label: Wells A2 serve as sample
+statement: In this experiment, wells A2 on lw-1770007099421-tzeixf serve as sample
+scope:
+  treated_context:
+    kind: record
+    id: CTX-89B4ACCA
+    type: context
+    label: lw-1770007099421-tzeixf A2
+evidence_refs: []
+createdAt: 2026-02-02T04:38:24.886Z
+createdBy: user
