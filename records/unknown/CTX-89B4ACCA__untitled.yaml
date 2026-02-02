@@ -1,0 +1,12 @@
+$schema: computable-lab/context
+recordId: CTX-89B4ACCA
+id: CTX-89B4ACCA
+subject_ref:
+  kind: record
+  id: lw-1770007099421-tzeixf:A2
+  type: wellset
+  label: lw-1770007099421-tzeixf A2
+notes: "Wells assigned role: sample"
+tags:
+  - sample
+  - wellset
