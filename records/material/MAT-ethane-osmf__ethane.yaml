@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-ethane-osmf
+kind: material
+id: MAT-ethane-osmf
+name: ethane
+domain: chemical
+class:
+  - kind: ontology
+    id: CHEBI:42266
+    namespace: CHEBI
+    label: ethane
+    uri: http://purl.obolibrary.org/obo/CHEBI_42266
+  - kind: ontology
+    id: NCIT:C12392
+    namespace: NCIT
+    label: Liver
+    uri: http://purl.obolibrary.org/obo/NCIT_C12392
+tags: []
