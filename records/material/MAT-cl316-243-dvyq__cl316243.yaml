@@ -1,0 +1,12 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-cl316-243-dvyq
+kind: material
+id: MAT-cl316-243-dvyq
+name: CL316,243
+domain: chemical
+class:
+  - kind: ontology
+    id: CHEBI:00000
+    namespace: CHEBI
+    label: CL316,243
+tags: []
