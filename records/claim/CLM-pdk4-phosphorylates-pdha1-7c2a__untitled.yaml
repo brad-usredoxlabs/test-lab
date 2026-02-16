@@ -1,0 +1,25 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-pdk4-phosphorylates-pdha1-7c2a
+kind: claim
+id: CLM-pdk4-phosphorylates-pdha1-7c2a
+statement: Human PDK4 phosphorylates the pyruvate dehydrogenase E1 alpha subunit PDHA1.
+subject:
+  kind: ontology
+  id: UniProt:Q16654
+  namespace: UniProt
+  label: PDK4
+predicate:
+  kind: ontology
+  id: RO:0002447
+  namespace: RO
+  label: phosphorylates
+object:
+  kind: ontology
+  id: UniProt:P08559
+  namespace: UniProt
+  label: PDHA1
+keywords:
+  - PDK4
+  - PDHA1
+  - pyruvate dehydrogenase
+  - phosphorylation
