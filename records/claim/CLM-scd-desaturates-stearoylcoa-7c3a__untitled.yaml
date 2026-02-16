@@ -1,0 +1,28 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-scd-desaturates-stearoylcoa-7c3a
+kind: claim
+id: CLM-scd-desaturates-stearoylcoa-7c3a
+statement: Stearoyl-CoA desaturase (SCD) catalyzes the desaturation of
+  stearoyl-CoA to oleoyl-CoA.
+subject:
+  kind: ontology
+  id: UniProt:O00767
+  namespace: UniProt
+  label: Stearoyl-CoA desaturase (SCD)
+predicate:
+  kind: ontology
+  id: RO:0002413
+  namespace: RO
+  label: directly positively regulates (catalyzes)
+object:
+  kind: ontology
+  id: REACTOME:R-HSA-5690565
+  namespace: REACTOME
+  label: SCD desaturates ST-CoA to OLE-CoA
+keywords:
+  - Reactome
+  - R-HSA-5690565
+  - SCD
+  - desaturation
+  - stearoyl-CoA
+  - oleoyl-CoA
