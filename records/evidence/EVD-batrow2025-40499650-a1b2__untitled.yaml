@@ -1,0 +1,36 @@
+$schema: https://computable-lab.com/schema/computable-lab/evidence.schema.yaml
+recordId: EVD-batrow2025-40499650-a1b2
+kind: evidence
+id: EVD-batrow2025-40499650-a1b2
+supports:
+  - kind: record
+    id: ASN-ppara-batko-increases-dnl-3c7a
+    type: assertion
+    label: Increased DNL in BAT in PPARαBATKO under CL316,243 challenge
+  - kind: record
+    id: ASN-ppara-batko-lipid-droplets-8d1e
+    type: assertion
+    label: Altered BAT morphology with larger/unilocular lipid droplets in PPARαBATKO
+  - kind: record
+    id: ASN-ppara-batko-upregulates-lipogenic-genes-5e6f
+    type: assertion
+    label: Upregulation of ChREBPβ and lipogenic enzymes in PPARαBATKO upon CL316,243
+  - kind: record
+    id: ASN-ppara-batko-increases-lipid-storage-0a9c
+    type: assertion
+    label: Increased triglyceride fatty acids and lipid storage in PPARαBATKO
+  - kind: record
+    id: ASN-ppara-batko-palmitoleate-phospholipids-2b3d
+    type: assertion
+    label: Increased palmitoleate in phospholipids in PPARαBATKO
+  - kind: record
+    id: ASN-ppara-batko-bodyweight-gtt-unchanged-7c8d
+    type: assertion
+    label: No change in body weight or glucose tolerance in PPARαBATKO
+sources:
+  - type: publication
+    ref:
+      kind: ontology
+      id: PMID:40499650
+      namespace: PMID
+      label: Batrow et al. 2025
