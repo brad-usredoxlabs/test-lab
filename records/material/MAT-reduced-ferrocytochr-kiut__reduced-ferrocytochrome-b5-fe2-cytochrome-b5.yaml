@@ -1,0 +1,12 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-reduced-ferrocytochr-kiut
+kind: material
+id: MAT-reduced-ferrocytochr-kiut
+name: reduced ferrocytochrome b5 (Fe(2+) cytochrome b5)
+domain: other
+class:
+  - kind: ontology
+    id: UNKNOWN:reduced-ferrocytochrome-b5
+    namespace: UNKNOWN
+    label: reduced ferrocytochrome b5 (Fe(2+) cytochrome b5)
+tags: []
