@@ -1,0 +1,12 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-scd-dimer-higher-oli-x0mi
+kind: material
+id: MAT-scd-dimer-higher-oli-x0mi
+name: SCD dimer/higher oligomer
+domain: other
+class:
+  - kind: ontology
+    id: UNKNOWN:SCD-oligomer
+    namespace: UNKNOWN
+    label: SCD dimer/higher oligomer
+tags: []
