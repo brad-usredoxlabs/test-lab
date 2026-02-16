@@ -1,0 +1,20 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-pdk4-decreases-glucose-utilization-8328
+kind: assertion
+id: ASN-pdk4-decreases-glucose-utilization-8328
+claim_ref:
+  kind: record
+  id: CLM-pdk4-decreases-glucose-utilization-5b0c
+  type: claim
+  label: During prolonged fasting or starvation, inhibition of pyruvate
+    dehydrogenase by PDK4 decreases glucose utilization and increases fat
+    metabolism.
+statement: During prolonged fasting or starvation, inhibition of pyruvate
+  dehydrogenase by PDK4 decreases glucose utilization and increases fat
+  metabolism.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-uniprot-Q16654-b530
+    type: evidence
+    label: Source record
