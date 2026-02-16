@@ -1,0 +1,30 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-ppara-deletion-increases-chrebp-lipogenic-genes-4t1c
+kind: claim
+id: CLM-ppara-deletion-increases-chrebp-lipogenic-genes-4t1c
+statement: Deletion of PPARα in brown adipocytes increases expression of ChREBPβ
+  and lipogenic enzymes (ACLY, ACC1, FASN, SCD1) upon β3-adrenergic agonist
+  challenge.
+subject:
+  kind: ontology
+  id: UniProt:Q07869
+  namespace: UniProt
+  label: Peroxisome proliferator-activated receptor alpha (mouse)
+predicate:
+  kind: ontology
+  id: RO:0002212
+  namespace: RO
+  label: negatively regulates
+object:
+  kind: ontology
+  id: GO:0009889
+  namespace: GO
+  label: regulation of biosynthetic process
+keywords:
+  - ChREBPbeta
+  - ACLY
+  - ACC1
+  - FASN
+  - SCD1
+  - gene expression
+  - beta3-adrenergic agonist
