@@ -1,0 +1,21 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-ppara-batko-lipid-droplets-8d1e
+kind: assertion
+id: ASN-ppara-batko-lipid-droplets-8d1e
+claim_ref:
+  kind: record
+  id: CLM-ppara-deletion-alters-bat-morphology-2m9q
+  type: claim
+  label: Deletion of PPARα in brown adipocytes alters BAT morphology with larger,
+    more unilocular lipid droplets.
+statement: BAT morphology in PPARαBATKO mice shows more unilocular and larger
+  lipid droplets than control mice, suggesting impaired BAT function.
+scope: {}
+outcome:
+  measure: BAT morphology (lipid droplet size and unilocular appearance)
+  direction: mixed
+evidence_refs:
+  - kind: record
+    id: EVD-batrow2025-40499650-a1b2
+    type: evidence
+    label: Batrow et al. 2025 (PMID:40499650)
