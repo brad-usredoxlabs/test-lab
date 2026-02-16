@@ -1,0 +1,13 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-cellular-synthesis-o-ml93
+kind: material
+id: MAT-cellular-synthesis-o-ml93
+name: cellular synthesis of monounsaturated fatty acids from saturated fatty acids
+domain: other
+class:
+  - kind: ontology
+    id: UNKNOWN:cellular-synthesis-of-monounsaturated-fatty-acids-from-saturated-fatty-acids
+    namespace: UNKNOWN
+    label: cellular synthesis of monounsaturated fatty acids from saturated fatty
+      acids
+tags: []
