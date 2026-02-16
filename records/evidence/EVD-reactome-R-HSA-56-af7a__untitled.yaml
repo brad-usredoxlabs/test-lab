@@ -1,0 +1,50 @@
+$schema: https://computable-lab.com/schema/computable-lab/evidence.schema.yaml
+recordId: EVD-reactome-R-HSA-56-af7a
+kind: evidence
+id: EVD-reactome-R-HSA-56-af7a
+supports:
+  - kind: record
+    id: ASN-scd-desaturates-stearoylcoa-e3bd
+    type: assertion
+    label: Stearoyl-CoA desaturase (SCD) catalyzes the desaturation of stearoyl-CoA
+      to oleoyl-CoA.
+  - kind: record
+    id: ASN-reaction-produces-oleoylcoa-580e
+    type: assertion
+    label: The reaction produces oleoyl-CoA.
+  - kind: record
+    id: ASN-reaction-consumes-stearoylcoa-5d89
+    type: assertion
+    label: The reaction consumes stearoyl-CoA.
+  - kind: record
+    id: ASN-scd-uses-oxygen-0a62
+    type: assertion
+    label: Stearoyl-CoA desaturase (SCD) uses molecular oxygen (O2) in its
+      desaturation reaction.
+  - kind: record
+    id: ASN-scd-electrons-from-cyb5-a16e
+    type: assertion
+    label: Stearoyl-CoA desaturase (SCD) receives electrons from reduced cytochrome
+      b5.
+  - kind: record
+    id: ASN-scd-located-er-membrane-5143
+    type: assertion
+    label: Stearoyl-CoA desaturase (SCD) is located on the endoplasmic reticulum
+      membrane.
+  - kind: record
+    id: ASN-scd-rate-limiting-mufa-1956
+    type: assertion
+    label: Stearoyl-CoA desaturase (SCD) is a rate-limiting enzyme in the cellular
+      synthesis of monounsaturated fatty acids from saturated fatty acids.
+  - kind: record
+    id: ASN-scd-forms-oligomers-84fd
+    type: assertion
+    label: Tagged recombinant SCD can form dimers and higher oligomers in
+      transiently transfected cells.
+sources:
+  - type: file
+    ref:
+      kind: ontology
+      id: REACTOME:R-HSA-5690565
+      namespace: REACTOME
+      label: Source record
