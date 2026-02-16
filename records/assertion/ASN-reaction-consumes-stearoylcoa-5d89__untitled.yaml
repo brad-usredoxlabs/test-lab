@@ -1,0 +1,16 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-reaction-consumes-stearoylcoa-5d89
+kind: assertion
+id: ASN-reaction-consumes-stearoylcoa-5d89
+claim_ref:
+  kind: record
+  id: CLM-reaction-consumes-stearoylcoa-9a0d
+  type: claim
+  label: The reaction consumes stearoyl-CoA.
+statement: The reaction consumes stearoyl-CoA.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
