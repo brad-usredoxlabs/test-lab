@@ -1,0 +1,12 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-de-novo-lipogenesis-4pfd
+kind: material
+id: MAT-de-novo-lipogenesis-4pfd
+name: de novo lipogenesis
+domain: other
+class:
+  - kind: ontology
+    id: UNKNOWN:de-novo-lipogenesis
+    namespace: UNKNOWN
+    label: de novo lipogenesis
+tags: []
