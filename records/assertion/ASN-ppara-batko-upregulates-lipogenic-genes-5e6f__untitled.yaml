@@ -1,0 +1,22 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-ppara-batko-upregulates-lipogenic-genes-5e6f
+kind: assertion
+id: ASN-ppara-batko-upregulates-lipogenic-genes-5e6f
+claim_ref:
+  kind: record
+  id: CLM-ppara-deletion-increases-chrebp-lipogenic-genes-4t1c
+  type: claim
+  label: Deletion of PPARα increases expression of ChREBPβ and lipogenic enzymes
+    upon β3-agonist challenge.
+statement: Upon CL316,243 treatment, PPARαBATKO mice show increased expression
+  of ChREBPβ and lipogenic enzymes (ACLY, ACC1, FASN, SCD1) compared to
+  controls.
+scope: {}
+outcome:
+  measure: Gene/protein expression of ChREBPβ, ACLY, ACC1, FASN, SCD1 in BAT
+  direction: increased
+evidence_refs:
+  - kind: record
+    id: EVD-batrow2025-40499650-a1b2
+    type: evidence
+    label: Batrow et al. 2025 (PMID:40499650)
