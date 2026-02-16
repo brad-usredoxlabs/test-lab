@@ -1,0 +1,16 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-scd-electrons-from-cyb5-a16e
+kind: assertion
+id: ASN-scd-electrons-from-cyb5-a16e
+claim_ref:
+  kind: record
+  id: CLM-scd-electrons-from-cyb5-6b1c
+  type: claim
+  label: Stearoyl-CoA desaturase (SCD) receives electrons from reduced cytochrome b5.
+statement: Stearoyl-CoA desaturase (SCD) receives electrons from reduced cytochrome b5.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
