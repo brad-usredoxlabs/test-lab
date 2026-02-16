@@ -1,0 +1,22 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-ppara-batko-bodyweight-gtt-unchanged-7c8d
+kind: assertion
+id: ASN-ppara-batko-bodyweight-gtt-unchanged-7c8d
+claim_ref:
+  kind: record
+  id: CLM-ppara-batko-no-change-bodyweight-gtt-1f0d
+  type: claim
+  label: BAT-specific deletion of PPARα does not change body weight or glucose
+    tolerance.
+statement: Body weight and glucose tolerance tests are similar between
+  PPARαBATKO and control mice in both sexes under the described high-fat diet
+  and thermoneutral housing conditions.
+scope: {}
+outcome:
+  measure: Body weight and glucose tolerance test outcomes
+  direction: no_change
+evidence_refs:
+  - kind: record
+    id: EVD-batrow2025-40499650-a1b2
+    type: evidence
+    label: Batrow et al. 2025 (PMID:40499650)
