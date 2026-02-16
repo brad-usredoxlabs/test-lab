@@ -1,0 +1,16 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-pdk4-promotes-ros-generation-8a49
+kind: assertion
+id: ASN-pdk4-promotes-ros-generation-8a49
+claim_ref:
+  kind: record
+  id: CLM-pdk4-promotes-ros-generation-6c8f
+  type: claim
+  label: PDK4 plays a role in the generation of reactive oxygen species.
+statement: PDK4 plays a role in the generation of reactive oxygen species.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-uniprot-Q16654-b530
+    type: evidence
+    label: Source record
