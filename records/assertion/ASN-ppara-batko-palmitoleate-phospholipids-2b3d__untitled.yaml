@@ -1,0 +1,20 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-ppara-batko-palmitoleate-phospholipids-2b3d
+kind: assertion
+id: ASN-ppara-batko-palmitoleate-phospholipids-2b3d
+claim_ref:
+  kind: record
+  id: CLM-ppara-deletion-increases-palmitoleate-phospholipids-6s2n
+  type: claim
+  label: Deletion of PPARα increases palmitoleate in phospholipids.
+statement: Lipid profiles in phospholipids differ in PPARαBATKO mice, including
+  increased palmitoleate, suggesting altered membrane lipid composition.
+scope: {}
+outcome:
+  measure: Phospholipid lipidomics (palmitoleate abundance)
+  direction: increased
+evidence_refs:
+  - kind: record
+    id: EVD-batrow2025-40499650-a1b2
+    type: evidence
+    label: Batrow et al. 2025 (PMID:40499650)
