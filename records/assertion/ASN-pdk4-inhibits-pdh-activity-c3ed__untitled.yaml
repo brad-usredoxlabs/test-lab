@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-pdk4-inhibits-pdh-activity-c3ed
+kind: assertion
+id: ASN-pdk4-inhibits-pdh-activity-c3ed
+claim_ref:
+  kind: record
+  id: CLM-pdk4-inhibits-pdh-activity-3a6e
+  type: claim
+  label: PDK4 inhibits pyruvate dehydrogenase activity via phosphorylation of
+    pyruvate dehydrogenase subunits.
+statement: PDK4 inhibits pyruvate dehydrogenase activity via phosphorylation of
+  pyruvate dehydrogenase subunits.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-uniprot-Q16654-b530
+    type: evidence
+    label: Source record
