@@ -1,0 +1,50 @@
+$schema: https://computable-lab.com/schema/computable-lab/evidence.schema.yaml
+recordId: EVD-uniprot-Q16654-b530
+kind: evidence
+id: EVD-uniprot-Q16654-b530
+supports:
+  - kind: record
+    id: ASN-pdk4-phosphorylates-pdha1-324b
+    type: assertion
+    label: Human PDK4 phosphorylates the pyruvate dehydrogenase E1 alpha subunit
+      PDHA1.
+  - kind: record
+    id: ASN-pdk4-phosphorylates-pdha2-fe18
+    type: assertion
+    label: Human PDK4 phosphorylates the pyruvate dehydrogenase E1 alpha subunit
+      PDHA2.
+  - kind: record
+    id: ASN-pdk4-inhibits-pdh-activity-c3ed
+    type: assertion
+    label: PDK4 inhibits pyruvate dehydrogenase activity via phosphorylation of
+      pyruvate dehydrogenase subunits.
+  - kind: record
+    id: ASN-pdk4-regulates-tca-flux-a77b
+    type: assertion
+    label: PDK4 regulates metabolite flux through the tricarboxylic acid cycle by
+      inhibiting pyruvate dehydrogenase.
+  - kind: record
+    id: ASN-pdk4-decreases-glucose-utilization-8328
+    type: assertion
+    label: During prolonged fasting or starvation, inhibition of pyruvate
+      dehydrogenase by PDK4 decreases glucose utilization and increases fat
+      metabolism.
+  - kind: record
+    id: ASN-pdk4-involved-insulin-signaling-76ca
+    type: assertion
+    label: PDK4 is involved in the insulin signaling cascade.
+  - kind: record
+    id: ASN-pdk4-promotes-ros-generation-8a49
+    type: assertion
+    label: PDK4 plays a role in the generation of reactive oxygen species.
+  - kind: record
+    id: ASN-pdk4-protects-anoikis-6fa7
+    type: assertion
+    label: PDK4 protects detached epithelial cells against anoikis.
+sources:
+  - type: file
+    ref:
+      kind: ontology
+      id: UniProt:Q16654
+      namespace: UniProt
+      label: Source record
