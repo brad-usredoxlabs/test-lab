@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-ppara-expressed-in-brown-adipocyte-f23d
+kind: assertion
+id: ASN-ppara-expressed-in-brown-adipocyte-f23d
+claim_ref:
+  kind: record
+  id: CLM-ppara-expressed-in-brown-adipocyte-1f2b
+  type: claim
+  label: PPARα is present in mouse brown adipocytes (context of adipocyte-specific
+    deletion).
+statement: PPARα is present in mouse brown adipocytes (context of
+  adipocyte-specific deletion).
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-pubmed-40499650-c013
+    type: evidence
+    label: Deletion of PPARα in mouse brown adipocytes increases the... (2025 Aug)
