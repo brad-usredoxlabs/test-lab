@@ -1,0 +1,16 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-reaction-produces-oleoylcoa-580e
+kind: assertion
+id: ASN-reaction-produces-oleoylcoa-580e
+claim_ref:
+  kind: record
+  id: CLM-reaction-produces-oleoylcoa-1f2b
+  type: claim
+  label: The reaction produces oleoyl-CoA.
+statement: The reaction produces oleoyl-CoA.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
