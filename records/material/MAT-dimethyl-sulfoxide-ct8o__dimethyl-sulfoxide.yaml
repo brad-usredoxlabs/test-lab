@@ -1,0 +1,17 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-dimethyl-sulfoxide-ct8o
+kind: material
+id: MAT-dimethyl-sulfoxide-ct8o
+name: dimethyl sulfoxide
+domain: chemical
+class:
+  - kind: ontology
+    id: CHEBI:28262
+    namespace: CHEBI
+    label: dimethyl sulfoxide
+  - kind: ontology
+    id: NCIT:C437
+    namespace: NCIT
+    label: Dimethyl Sulfoxide
+    uri: http://purl.obolibrary.org/obo/NCIT_C437
+tags: []
