@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-scd-uses-oxygen-0a62
+kind: assertion
+id: ASN-scd-uses-oxygen-0a62
+claim_ref:
+  kind: record
+  id: CLM-scd-uses-oxygen-3c8e
+  type: claim
+  label: Stearoyl-CoA desaturase (SCD) uses molecular oxygen (O2) in its
+    desaturation reaction.
+statement: Stearoyl-CoA desaturase (SCD) uses molecular oxygen (O2) in its
+  desaturation reaction.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
