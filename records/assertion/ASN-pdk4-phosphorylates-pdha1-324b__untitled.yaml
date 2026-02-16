@@ -1,0 +1,16 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-pdk4-phosphorylates-pdha1-324b
+kind: assertion
+id: ASN-pdk4-phosphorylates-pdha1-324b
+claim_ref:
+  kind: record
+  id: CLM-pdk4-phosphorylates-pdha1-7c2a
+  type: claim
+  label: Human PDK4 phosphorylates the pyruvate dehydrogenase E1 alpha subunit PDHA1.
+statement: Human PDK4 phosphorylates the pyruvate dehydrogenase E1 alpha subunit PDHA1.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-uniprot-Q16654-b530
+    type: evidence
+    label: Source record
