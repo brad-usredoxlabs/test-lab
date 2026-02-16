@@ -1,0 +1,25 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-rnf4-promotes-hif2a-sumoylation-y3m7
+kind: claim
+id: CLM-rnf4-promotes-hif2a-sumoylation-y3m7
+statement: RNF4 promotes SUMOylation of HIF-2α
+subject:
+  kind: ontology
+  id: UniProt:Q99560
+  namespace: UniProt
+  label: RNF4
+predicate:
+  kind: ontology
+  id: RO:0002309
+  namespace: RO
+  label: positively regulates
+object:
+  kind: ontology
+  id: GO:0016925
+  namespace: GO
+  label: SUMOylation
+keywords:
+  - RNF4
+  - HIF-2α
+  - SUMOylation
+  - post-translational modification
