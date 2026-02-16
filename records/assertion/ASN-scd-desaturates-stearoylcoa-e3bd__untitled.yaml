@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-scd-desaturates-stearoylcoa-e3bd
+kind: assertion
+id: ASN-scd-desaturates-stearoylcoa-e3bd
+claim_ref:
+  kind: record
+  id: CLM-scd-desaturates-stearoylcoa-7c3a
+  type: claim
+  label: Stearoyl-CoA desaturase (SCD) catalyzes the desaturation of stearoyl-CoA
+    to oleoyl-CoA.
+statement: Stearoyl-CoA desaturase (SCD) catalyzes the desaturation of
+  stearoyl-CoA to oleoyl-CoA.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
