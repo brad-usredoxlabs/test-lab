@@ -1,0 +1,16 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-pdk4-protects-anoikis-6fa7
+kind: assertion
+id: ASN-pdk4-protects-anoikis-6fa7
+claim_ref:
+  kind: record
+  id: CLM-pdk4-protects-anoikis-2d3a
+  type: claim
+  label: PDK4 protects detached epithelial cells against anoikis.
+statement: PDK4 protects detached epithelial cells against anoikis.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-uniprot-Q16654-b530
+    type: evidence
+    label: Source record
