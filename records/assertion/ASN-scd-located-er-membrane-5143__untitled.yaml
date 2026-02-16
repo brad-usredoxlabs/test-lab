@@ -1,0 +1,17 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-scd-located-er-membrane-5143
+kind: assertion
+id: ASN-scd-located-er-membrane-5143
+claim_ref:
+  kind: record
+  id: CLM-scd-located-er-membrane-0d7a
+  type: claim
+  label: Stearoyl-CoA desaturase (SCD) is located on the endoplasmic reticulum
+    membrane.
+statement: Stearoyl-CoA desaturase (SCD) is located on the endoplasmic reticulum membrane.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
