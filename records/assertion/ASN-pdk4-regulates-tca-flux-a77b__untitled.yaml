@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-pdk4-regulates-tca-flux-a77b
+kind: assertion
+id: ASN-pdk4-regulates-tca-flux-a77b
+claim_ref:
+  kind: record
+  id: CLM-pdk4-regulates-tca-flux-9d41
+  type: claim
+  label: PDK4 regulates metabolite flux through the tricarboxylic acid cycle by
+    inhibiting pyruvate dehydrogenase.
+statement: PDK4 regulates metabolite flux through the tricarboxylic acid cycle
+  by inhibiting pyruvate dehydrogenase.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-uniprot-Q16654-b530
+    type: evidence
+    label: Source record
