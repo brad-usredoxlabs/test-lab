@@ -1,0 +1,26 @@
+$schema: https://computable-lab.com/schema/computable-lab/evidence.schema.yaml
+recordId: EVD-pubmed-40499650-c013
+kind: evidence
+id: EVD-pubmed-40499650-c013
+supports:
+  - kind: record
+    id: ASN-ppara-deletion-increases-dnl-f196
+    type: assertion
+    label: Deletion of PPARα in mouse brown adipocytes increases de novo lipogenesis.
+  - kind: record
+    id: ASN-ppara-expressed-in-brown-adipocyte-f23d
+    type: assertion
+    label: PPARα is present in mouse brown adipocytes (context of adipocyte-specific
+      deletion).
+  - kind: record
+    id: ASN-paper-about-ppara-brown-adipocyte-0d0e
+    type: assertion
+    label: PMID:40499650 reports on the effect of PPARα deletion in mouse brown
+      adipocytes on de novo lipogenesis.
+sources:
+  - type: publication
+    ref:
+      kind: ontology
+      id: PMID:40499650
+      namespace: PMID
+      label: Deletion of PPARα in mouse brown adipocytes increases the... (2025 Aug)
