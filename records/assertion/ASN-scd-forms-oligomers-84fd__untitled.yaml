@@ -1,0 +1,18 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-scd-forms-oligomers-84fd
+kind: assertion
+id: ASN-scd-forms-oligomers-84fd
+claim_ref:
+  kind: record
+  id: CLM-scd-forms-oligomers-5a9d
+  type: claim
+  label: Tagged recombinant SCD can form dimers and higher oligomers in
+    transiently transfected cells.
+statement: Tagged recombinant SCD can form dimers and higher oligomers in
+  transiently transfected cells.
+scope: {}
+evidence_refs:
+  - kind: record
+    id: EVD-reactome-R-HSA-56-af7a
+    type: evidence
+    label: Source record
