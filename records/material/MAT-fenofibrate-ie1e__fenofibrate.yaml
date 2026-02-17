@@ -1,0 +1,39 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-fenofibrate-ie1e
+kind: material
+id: MAT-fenofibrate-ie1e
+name: Fenofibrate
+domain: other
+class:
+  - kind: ontology
+    id: NCIT:C29047
+    namespace: NCIT
+    label: Fenofibrate
+    uri: http://purl.obolibrary.org/obo/NCIT_C29047
+  - kind: ontology
+    id: CHEBI:5001
+    namespace: CHEBI
+    label: fenofibrate
+    uri: http://purl.obolibrary.org/obo/CHEBI_5001
+definition: A synthetic phenoxy-isobutyric acid derivate and prodrug with
+  antihyperlipidemic activity. Fenofibrate is hydrolyzed in vivo to its active
+  metabolite fenofibric acid that binds to and activates peroxisome proliferator
+  activated receptor alpha (PPARalpha), resulting in the activation of
+  lipoprotein lipase and reduction of the production of apoprotein C-III, an
+  inhibitor of lipoprotein lipase activity. Increased lipolysis and a fall in
+  plasma triglycerides, in turn, leads to the modification of the small, dense
+  low density lipoporotein (LDL) particles into larger particles that are
+  catabolized more rapidly due to a greater affinity for cholesterol receptors.
+  In addition, activation of PPARalpha also increases the synthesis of
+  apoproteins A-I, A-II, and high density lipoprotein (HDL)-cholesterol.
+  Overall, fenofibrate reduces total cholesterol, LDL cholesterol,
+  apolipoprotein B, total triglycerides and triglyceride rich lipoprotein (VLDL)
+  while increasing HDL cholesterol.
+synonyms:
+  - FENOFIBRATE
+  - Fenofibrate
+  - Lofibra
+  - TriCor
+  - Tricor
+  - fenofibrate
+tags: []
