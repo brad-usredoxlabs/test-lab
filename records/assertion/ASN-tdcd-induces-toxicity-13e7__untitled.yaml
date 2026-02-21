@@ -1,0 +1,17 @@
+$schema: https://computable-lab.com/schema/computable-lab/assertion.schema.yaml
+recordId: ASN-tdcd-induces-toxicity-13e7
+kind: assertion
+id: ASN-tdcd-induces-toxicity-13e7
+claim_ref:
+  kind: record
+  id: CLM-tdcd-induces-toxicity-7c3a
+  type: claim
+  label: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) induces liver toxicity in mice.
+statement: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) induces liver toxicity in mice.
+scope: {}
+confidence: 3
+evidence_refs:
+  - kind: record
+    id: EVD-pubmed-41258119-925c
+    type: evidence
+    label: Exploring the role of hepatic lipid droplets in mouse liv... (2025 Nov 19)
