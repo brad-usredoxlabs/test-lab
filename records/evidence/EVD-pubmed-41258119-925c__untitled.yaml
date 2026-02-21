@@ -1,0 +1,37 @@
+$schema: https://computable-lab.com/schema/computable-lab/evidence.schema.yaml
+recordId: EVD-pubmed-41258119-925c
+kind: evidence
+id: EVD-pubmed-41258119-925c
+supports:
+  - kind: record
+    id: ASN-tdcd-induces-toxicity-13e7
+    type: assertion
+    label: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) induces liver toxicity in mice.
+  - kind: record
+    id: ASN-lipid-droplets-sequester-tcdd-4187
+    type: assertion
+    label: Hepatic lipid droplets sequester 2,3,7,8-tetrachlorodibenzo-p-dioxin
+      (TCDD) in mouse liver.
+  - kind: record
+    id: ASN-tcdd-alters-biochemistry-e032
+    type: assertion
+    label: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) exposure causes biochemical
+      alterations in mouse liver.
+  - kind: record
+    id: ASN-tcdd-regulates-gene-expression-9d8c
+    type: assertion
+    label: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) exposure alters gene
+      regulation in mouse liver.
+  - kind: record
+    id: ASN-study-focuses-lipid-droplets-525e
+    type: assertion
+    label: The study investigates the role of hepatic lipid droplets in TCDD-induced
+      mouse liver toxicity.
+sources:
+  - type: publication
+    ref:
+      kind: ontology
+      id: PMID:41258119
+      namespace: PMID
+      label: Exploring the role of hepatic lipid droplets in mouse liv... (2025 Nov
+        19)
