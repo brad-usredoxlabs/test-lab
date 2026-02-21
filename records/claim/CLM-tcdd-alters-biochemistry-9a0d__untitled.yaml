@@ -1,0 +1,26 @@
+$schema: https://computable-lab.com/schema/computable-lab/claim.schema.yaml
+recordId: CLM-tcdd-alters-biochemistry-9a0d
+kind: claim
+id: CLM-tcdd-alters-biochemistry-9a0d
+statement: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) exposure causes
+  biochemical alterations in mouse liver.
+subject:
+  kind: ontology
+  id: CHEBI:28119
+  namespace: CHEBI
+  label: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)
+predicate:
+  kind: ontology
+  id: RO:0002410
+  namespace: RO
+  label: causally related to
+object:
+  kind: ontology
+  id: GO:0008152
+  namespace: GO
+  label: metabolic process
+keywords:
+  - TCDD
+  - biochemical alterations
+  - mouse liver
+  - metabolism
