@@ -1,0 +1,6 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0013__study-3
+kind: study
+state: draft
+title: Study 3
+shortSlug: study-3
