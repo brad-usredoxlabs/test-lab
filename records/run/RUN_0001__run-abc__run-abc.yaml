@@ -1,0 +1,8 @@
+$schema: https://computable-lab.com/schema/computable-lab/run.schema.yaml
+recordId: RUN_0001__run-abc
+kind: run
+status: planned
+studyId: STD_0011__new-study
+experimentId: EXP_0001__detremine-baseline
+title: Run ABC
+shortSlug: run-abc
