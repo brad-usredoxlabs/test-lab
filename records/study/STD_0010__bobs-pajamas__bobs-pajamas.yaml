@@ -1,0 +1,5 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0010__bobs-pajamas
+kind: study
+title: Bobs Pajamas
+shortSlug: bobs-pajamas
