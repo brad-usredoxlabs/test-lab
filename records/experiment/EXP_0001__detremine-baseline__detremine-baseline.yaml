@@ -1,0 +1,7 @@
+$schema: https://computable-lab.com/schema/computable-lab/experiment.schema.yaml
+recordId: EXP_0001__detremine-baseline
+kind: experiment
+state: draft
+studyId: STD_0011__new-study
+title: detremine baseline
+shortSlug: detremine-baseline
