@@ -1,7 +1,0 @@
-$schema: https://computable-lab.com/schema/computable-lab/experiment.schema.yaml
-recordId: EXP_0001__robd
-kind: experiment
-title: robd
-shortSlug: robd
-state: draft
-studyId: STD_0009__rund

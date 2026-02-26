@@ -1,8 +1,0 @@
-$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
-recordId: STU-000003
-kind: study
-title: Study 1
-shortSlug: study-1
-tags: []
-primaryClaimIds: []
-attachments: []
