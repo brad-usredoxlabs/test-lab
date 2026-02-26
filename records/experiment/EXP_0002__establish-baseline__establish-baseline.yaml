@@ -1,0 +1,7 @@
+$schema: https://computable-lab.com/schema/computable-lab/experiment.schema.yaml
+recordId: EXP_0002__establish-baseline
+kind: experiment
+state: draft
+studyId: STD_0011__new-study
+title: Establish Baseline
+shortSlug: establish-baseline
