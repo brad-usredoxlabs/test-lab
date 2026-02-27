@@ -1,0 +1,9 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0014__study-4
+kind: study
+state: draft
+title: Study 4
+shortSlug: study-4
+createdAt: 2026-02-27T00:51:59.698Z
+updatedAt: 2026-02-27T00:51:59.698Z
+createdBy: brad-usredoxlabs
