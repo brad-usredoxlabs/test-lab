@@ -1,0 +1,14 @@
+$schema: https://computable-lab.com/schema/computable-lab/experiment.schema.yaml
+recordId: EXP_0005__first-exp
+kind: experiment
+state: draft
+studyId: STD_0017__study-7
+title: First Exp
+shortSlug: first-exp
+createdAt: 2026-02-27T01:30:02.269Z
+updatedAt: 2026-02-27T01:30:02.269Z
+createdBy: brad-usredoxlabs
+license: CCBY 4.0
+keywords:
+  - PPARalpha
+  - aryl hydrocarbon receptor
