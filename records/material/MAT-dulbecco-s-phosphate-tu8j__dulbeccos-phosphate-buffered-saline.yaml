@@ -1,0 +1,23 @@
+$schema: https://computable-lab.com/schema/computable-lab/material.schema.yaml
+recordId: MAT-dulbecco-s-phosphate-tu8j
+kind: material
+id: MAT-dulbecco-s-phosphate-tu8j
+name: Dulbecco's Phosphate-Buffered Saline
+domain: other
+class:
+  - kind: ontology
+    id: NCIT:C178908
+    namespace: NCIT
+    label: Dulbecco's Phosphate-Buffered Saline
+    uri: http://purl.obolibrary.org/obo/NCIT_C178908
+definition: A buffered (pH range 7.2-7.6) saline solution used in cell culture
+  applications.
+synonyms:
+  - DPBS
+  - Dulbecco's Phosphate-Buffered Saline
+  - PBS
+  - Phosphate-Buffered Saline
+tags: []
+createdAt: 2026-02-27T02:30:04.932Z
+updatedAt: 2026-02-27T02:30:04.932Z
+createdBy: brad-usredoxlabs
