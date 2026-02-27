@@ -1,0 +1,10 @@
+$schema: https://computable-lab.com/schema/computable-lab/experiment.schema.yaml
+recordId: EXP_0003__establish-baseline
+kind: experiment
+state: draft
+studyId: STD_0014__study-4
+title: Establish Baseline
+shortSlug: establish-baseline
+createdAt: 2026-02-27T00:52:32.837Z
+updatedAt: 2026-02-27T00:52:32.837Z
+createdBy: brad-usredoxlabs
