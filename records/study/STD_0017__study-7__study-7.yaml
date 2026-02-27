@@ -1,0 +1,13 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0017__study-7
+kind: study
+state: draft
+title: Study 7
+shortSlug: study-7
+keywords:
+  - PPARalpha
+  - aryl hydrocarbon receptor
+license: CCBY 4.0
+createdAt: 2026-02-27T01:29:40.437Z
+updatedAt: 2026-02-27T01:29:40.437Z
+createdBy: brad-usredoxlabs
