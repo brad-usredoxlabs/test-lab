@@ -1,0 +1,9 @@
+$schema: https://computable-lab.com/schema/computable-lab/study.schema.yaml
+recordId: STD_0016__study-6
+kind: study
+state: draft
+title: Study 6
+shortSlug: study-6
+createdAt: 2026-02-27T01:28:24.383Z
+updatedAt: 2026-02-27T01:28:24.383Z
+createdBy: brad-usredoxlabs
