@@ -1,0 +1,10 @@
+$schema: https://computable-lab.com/schema/computable-lab/experiment.schema.yaml
+recordId: EXP_0004__fix-the-noise
+kind: experiment
+state: draft
+studyId: STD_0014__study-4
+title: Fix the Noise
+shortSlug: fix-the-noise
+createdAt: 2026-02-27T00:53:57.699Z
+updatedAt: 2026-02-27T00:53:57.699Z
+createdBy: brad-usredoxlabs
