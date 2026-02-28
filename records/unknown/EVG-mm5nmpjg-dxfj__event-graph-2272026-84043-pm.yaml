@@ -1,0 +1,289 @@
+$schema: https://computable-lab.com/schema/computable-lab/event-graph.schema.yaml
+recordId: EVG-mm5nmpjg-dxfj
+id: EVG-mm5nmpjg-dxfj
+events:
+  - eventId: evt-1772242521073-gov2mibji
+    event_type: add_material
+    t_offset: PT0M
+    details:
+      wells:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+      material_ref:
+        kind: record
+        id: MAT-clofibrate-p9up
+        type: material
+        label: Clofibrate
+      volume:
+        value: 2000
+        unit: µL
+      concentration:
+        value: 1
+        unit: µM
+      labwareId: lw-1772242511005-ssipj5
+  - eventId: evt-1772242550760-rhs32lc4e
+    event_type: multi_dispense
+    t_offset: PT0M
+    details:
+      source_labwareId: lw-1772242511005-ssipj5
+      dest_labwareId: lw-1772242506335-3uwlsr
+      source_wells:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+      dest_wells:
+        - A2
+        - B2
+        - C2
+        - D2
+        - E2
+        - F2
+        - G2
+        - H2
+        - A3
+        - B3
+        - C3
+        - D3
+        - E3
+        - F3
+        - G3
+        - H3
+        - A4
+        - B4
+        - C4
+        - D4
+        - E4
+        - F4
+        - G4
+        - H4
+        - A5
+        - B5
+        - C5
+        - D5
+        - E5
+        - F5
+        - G5
+        - H5
+        - A6
+        - B6
+        - C6
+        - D6
+        - E6
+        - F6
+        - G6
+        - H6
+        - A7
+        - B7
+        - C7
+        - D7
+        - E7
+        - F7
+        - G7
+        - H7
+        - A8
+        - B8
+        - C8
+        - D8
+        - E8
+        - F8
+        - G8
+        - H8
+        - A9
+        - B9
+        - C9
+        - D9
+        - E9
+        - F9
+        - G9
+        - H9
+        - A10
+        - B10
+        - C10
+        - D10
+        - E10
+        - F10
+        - G10
+        - H10
+        - A11
+        - B11
+        - C11
+        - D11
+        - E11
+        - F11
+        - G11
+        - H11
+      volume:
+        value: 100
+        unit: µL
+      dead_volume:
+        value: 50
+        unit: uL
+      source:
+        labwareInstanceId: lw-1772242511005-ssipj5
+        wells:
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+          - "7"
+          - "8"
+      target:
+        labwareInstanceId: lw-1772242506335-3uwlsr
+        wells:
+          - A2
+          - B2
+          - C2
+          - D2
+          - E2
+          - F2
+          - G2
+          - H2
+          - A3
+          - B3
+          - C3
+          - D3
+          - E3
+          - F3
+          - G3
+          - H3
+          - A4
+          - B4
+          - C4
+          - D4
+          - E4
+          - F4
+          - G4
+          - H4
+          - A5
+          - B5
+          - C5
+          - D5
+          - E5
+          - F5
+          - G5
+          - H5
+          - A6
+          - B6
+          - C6
+          - D6
+          - E6
+          - F6
+          - G6
+          - H6
+          - A7
+          - B7
+          - C7
+          - D7
+          - E7
+          - F7
+          - G7
+          - H7
+          - A8
+          - B8
+          - C8
+          - D8
+          - E8
+          - F8
+          - G8
+          - H8
+          - A9
+          - B9
+          - C9
+          - D9
+          - E9
+          - F9
+          - G9
+          - H9
+          - A10
+          - B10
+          - C10
+          - D10
+          - E10
+          - F10
+          - G10
+          - H10
+          - A11
+          - B11
+          - C11
+          - D11
+          - E11
+          - F11
+          - G11
+          - H11
+labwares:
+  - labwareId: lw-1772242506335-3uwlsr
+    name: 96-Well Plate
+    labwareType: plate_96
+    addressing:
+      type: grid
+      rows: 8
+      columns: 12
+      rowLabels:
+        - A
+        - B
+        - C
+        - D
+        - E
+        - F
+        - G
+        - H
+      columnLabels:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+        - "9"
+        - "10"
+        - "11"
+        - "12"
+    geometry:
+      maxVolume_uL: 300
+      minVolume_uL: 10
+      wellShape: round
+    layoutFamily: sbs_plate
+    wellPitch_mm: 9
+    orientationPolicy: rotatable
+    color: "#339af0"
+  - labwareId: lw-1772242511005-ssipj5
+    name: 8-Channel Reservoir
+    labwareType: reservoir_8
+    addressing:
+      type: linear
+      linearLabels:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+    geometry:
+      maxVolume_uL: 30000
+      minVolume_uL: 1000
+      wellShape: v-bottom
+    layoutFamily: reservoir
+    orientationPolicy: fixed_columns
+    color: "#12b886"
+name: Event Graph 2/27/2026, 8:40:43 PM
+links: {}
+status: inbox
+createdAt: 2026-02-28T01:40:43.091Z
+updatedAt: 2026-02-28T01:40:43.091Z
