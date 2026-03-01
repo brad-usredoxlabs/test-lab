@@ -1,0 +1,49 @@
+$schema: https://computable-lab.com/schema/computable-lab/event-graph.schema.yaml
+recordId: EVG-mm74fl7p-p3yd
+id: EVG-mm74fl7p-p3yd
+events:
+  - eventId: evt-1772331524498-6hkyrb8jr
+    event_type: add_material
+    t_offset: PT0M
+    details:
+      wells:
+        - "1"
+      material_ref:
+        kind: record
+        id: MAT-dulbecco-s-phosphate-oi1m
+        type: material
+        label: Dulbecco's Phosphate-Buffered Saline
+      volume:
+        value: 1200
+        unit: µL
+      concentration:
+        value: 100
+        unit: µM
+      labwareId: lw-1772331480774-xo0xeo
+labwares:
+  - labwareId: lw-1772331480774-xo0xeo
+    name: 8-Channel Reservoir
+    labwareType: reservoir_8
+    addressing:
+      type: linear
+      linearLabels:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+    geometry:
+      maxVolume_uL: 30000
+      minVolume_uL: 1000
+      wellShape: v-bottom
+    layoutFamily: reservoir
+    orientationPolicy: fixed_columns
+    color: "#12b886"
+name: Event Graph 2/28/2026, 9:18:50 PM
+links: {}
+status: inbox
+createdAt: 2026-03-01T02:18:50.541Z
+updatedAt: 2026-03-01T02:18:50.541Z
