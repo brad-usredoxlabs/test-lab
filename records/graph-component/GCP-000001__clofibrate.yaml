@@ -1,0 +1,72 @@
+$schema: https://computable-lab.com/schema/computable-lab/graph-component.schema.yaml
+recordId: GCP-000001
+kind: graph-component
+title: clofibrate
+state: draft
+template:
+  source:
+    kind: inline
+    eventIds:
+      - evt-1772331393687-qnuewpkt5
+    labwareIds:
+      - lw-1772331370782-s0um40
+  insertionHints:
+    version: v1
+    sourceEventGraphId: null
+    playbackPosition: 1
+    anchorLabwareId: lw-1772331370782-s0um40
+    closure:
+      labwareIds:
+        - lw-1772331370782-s0um40
+      eventIds:
+        - evt-1772331393687-qnuewpkt5
+    events:
+      - eventId: evt-1772331393687-qnuewpkt5
+        event_type: add_material
+        t_offset: PT0M
+        details:
+          wells:
+            - "1"
+          volume:
+            value: 1000
+            unit: µL
+          concentration:
+            value: 1
+            unit: µM
+          material_ref:
+            kind: record
+            id: MAT-clofibrate-p9up
+            type: material
+            label: Clofibrate
+          labwareId: lw-1772331370782-s0um40
+    labwares:
+      - labwareId: lw-1772331370782-s0um40
+        name: 8-Channel Reservoir
+        labwareType: reservoir_8
+        addressing:
+          type: linear
+          linearLabels:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+        geometry:
+          maxVolume_uL: 30000
+          minVolume_uL: 1000
+          wellShape: v-bottom
+        layoutFamily: reservoir
+        orientationPolicy: fixed_columns
+        color: "#12b886"
+    deck:
+      platform: manual
+      variant: manual_collapsed
+      placements: []
+description: Template saved from labware editor
+tags:
+  - template
+  - event_graph_template
+notes: "Version: v1"
